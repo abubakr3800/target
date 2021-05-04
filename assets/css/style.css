@@ -899,12 +899,12 @@ section {
 }
 
 .about-us .content ul li {
-  padding: 10px 0 0 28px;
+  padding: 10px 28px 0 0 ;
   position: relative;
 }
 
 .about-us .content ul i {
-  left: 0;
+  right: 0;
   top: 7px;
   position: absolute;
   font-size: 20px;
@@ -2240,4 +2240,8 @@ section {
   background: var(--theme);
   color: #fff;
   text-decoration: none;
+}
+
+.vbox-figlio{
+  height: 550px !important;
 }
