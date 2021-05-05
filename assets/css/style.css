@@ -1260,13 +1260,14 @@ section {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
   background: #fff;
+  text-align: center;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   border: 6px solid #fff;
-  float: left;
+  /* float: left; */
   margin: 0 10px 0 0;
 }
 
@@ -1275,6 +1276,8 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
+  clear: both;
+  /* display: inline-block; */
 }
 
 .testimonials .testimonial-item h4 {
@@ -1302,7 +1305,9 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  /* font-style: italic; */
+  direction: rtl;
+  text-align: right;
   margin: 15px 0 0 0;
   padding: 0;
 }
